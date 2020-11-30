@@ -1,4 +1,4 @@
-package practice.array.largest;
+package practice.arrays.largest;
 
 import java.util.Arrays;
 
