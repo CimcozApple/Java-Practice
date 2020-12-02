@@ -11,8 +11,10 @@ public class AddTwoArrays {
 	public static void main(String[] args) {
 		
 		Integer[] arr1 = {1,2,3,4,5};
+		System.out.println("first array: " + arr1);
 		
 		Integer[] arr2 = {6,7,8,9,10};
+		System.out.println("second array: " + arr2);
 		
 		List<Integer> intList = new ArrayList<>();
 		
@@ -28,6 +30,7 @@ public class AddTwoArrays {
 		
 		combined = intList.toArray(combined);
 		
-		System.out.println("array: " + Arrays.toString(combined));
+		System.out.println("combined arrays: " + Arrays.toString(combined));
+		
 	}
 }
